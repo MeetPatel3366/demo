@@ -1,0 +1,10 @@
+So, to list all items (including hidden) in PowerShell, you should use:
+-->: ls -a  (hidden file)  
+powershell
+Copy code
+Get-ChildItem -Force
+Or if you want to list only hidden items:
+
+powershell
+Copy code
+Get-ChildItem -Hidden
